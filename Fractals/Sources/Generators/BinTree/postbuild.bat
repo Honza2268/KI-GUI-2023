@@ -1,0 +1,1 @@
+xcopy /y "..\BinTree.dll" "..\..\..\DLLs\"

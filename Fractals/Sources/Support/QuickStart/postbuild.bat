@@ -1,0 +1,1 @@
+xcopy /y "..\QuickStart.dll" "..\..\App\"

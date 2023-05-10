@@ -1,0 +1,5 @@
+/**/.vs
+/**/.vscode
+/Fractals/Sources/App/obj
+/Fractals/Sources/Generators/*/obj
+/Fractals/Sources/Support/*/obj

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+	<UseWPF>true</UseWPF>
+	<BaseOutputPath>..\</BaseOutputPath>
+	<OutputPath>..\</OutputPath>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+	<UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+	<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="call postbuild.bat" />
+  </Target>
+
+  <ItemGroup>
+    <Compile Include="QuickStart.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="postbuild.bat" />
+  </ItemGroup>
+
+</Project>
