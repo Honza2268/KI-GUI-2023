@@ -16,5 +16,5 @@ Klíčová slovíčka:
 ## Instrukce
 
 1. naklonuj repozitář `git clone https://github.com/Honza2268/KI-GUI-2023.git `
-2. naviguj do složky `Fractals/Sources/App`
-3. otevři  `Fractals.csproj`
+2. vytvoř nový projekt ve složce `Fractals/Sources/App`
+3. uprav svůj `.csproj` soubor vložením textu z `project_params.txt`
