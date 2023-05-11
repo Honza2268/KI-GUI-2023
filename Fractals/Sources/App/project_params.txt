@@ -1,0 +1,6 @@
+﻿<BaseOutputPath>..\..\</BaseOutputPath>
+<OutputPath>..\..\</OutputPath>
+<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+<UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
