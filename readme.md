@@ -12,3 +12,9 @@ Klíčová slovíčka:
 
 * `await` pro volání asynchronní funkce
 * `async` pro definici asynchronní funkce
+
+## Instrukce
+
+1. naklonuj repozitář `git clone https://github.com/Honza2268/KI-GUI-2023.git `
+2. naviguj do složky `Fractals/Sources/App`
+3. otevři  `Fractals.csproj`
